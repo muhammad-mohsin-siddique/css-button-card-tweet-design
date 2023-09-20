@@ -1,0 +1,154 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(230, 226, 226);
+}
+.Main-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5% ;
+}
+.card-container{
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(156, 156, 156);
+}
+.img{
+    width: inherit;
+    height: 200px;
+    background-image: url(./images/300x200.png);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+.content{
+    margin: 20px;
+    font-size: 18px;
+}
+.buttons-container{
+    width: 50%;
+
+}
+button {
+    margin: 30px;
+}
+.button-1{
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 8px 20px; 
+}
+.button-2{
+    background-color: rgb(129, 129, 129);
+    color: white;
+    border: none;
+    font-size: larger;
+    border-radius: 13px;
+    padding: 15px 35px; 
+}
+.button-3{
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: larger;
+    border-radius: 5px;
+    padding: 10px 20px; 
+    font-family: monospace;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.button-4{
+    background-color: red;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    border: none;
+    font-size: larger;
+    border-radius: 50px;
+    padding: 8px 20px; 
+}
+.button-5{
+    background-color: orange;
+    color: white;
+    border: none;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 15px 35px; 
+}
+.button-6{
+    background-color: rgb(5, 70, 87);
+    color: white;
+    border: none;
+    font-size: larger;
+    padding: 15px 35px; 
+}
+.button-7{
+    background-color: purple;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    border: none;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 8px 20px; 
+}
+.button-8{
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: larger;
+    padding: 15px 35px; 
+    border-radius: 6px;
+}
+.button-9{
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: larger;
+    padding: 15px 35px;
+    border-radius: 6px; 
+}
+
+.button-10{
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 8px 50px; 
+    margin-left: 29%;
+}
+
+footer{
+    text-align: center;
+    margin-top: 4%;
+}
+.button-next{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: none;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin: 10px;
+    background-color: rgb(29, 8, 105);
+    color: white;
+}
+.button-next:hover{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: none;
+    margin: 10px;
+    background-color: rgb(197, 194, 194);
+    color: rgb(29, 8, 105);
+    text-decoration: underline;
+    cursor:grab;
+
+}
